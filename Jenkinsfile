@@ -10,7 +10,7 @@ pipeline {
 
            echo "build"    
 
-                sh "javac helloworld.java"
+                sh "python hello.py"
 
             }
 
@@ -22,7 +22,7 @@ pipeline {
 
                echo "test"
 
-                sh "java helloworld"
+                sh "python hello.py"
 
             }
 
