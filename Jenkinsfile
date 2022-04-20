@@ -22,7 +22,7 @@ pipeline {
 
                echo "test"
 
-                sh "java Hello"
+                sh "java helloworld"
 
             }
 
